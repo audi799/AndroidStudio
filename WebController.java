@@ -39,7 +39,7 @@ public class WebController {
 
         HttpURLConnection httpURLConnection = null;
         try {
-            URL url = new URL("http://211.105.106.69:10010/api/"+mode);
+            URL url = new URL("http://211.105.106.**:10010/api/"+mode);
             httpURLConnection = (HttpURLConnection)url.openConnection();
             httpURLConnection.setRequestMethod("POST");
             httpURLConnection.setRequestProperty("Accept-Charset", "UTF-8");
