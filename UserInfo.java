@@ -26,9 +26,9 @@ import kr.gimaek.mobilegimaek.tool.GetIdentifier;
  */
 public class UserInfo extends Application {
     public static final String APP_DOMAIN = "kr.gimaek.mobilegimaek.userinfo";
-    public static final String DATA_CONNECTION_URL = "http://211.105.106.70:8080/GM/getData.jsp?APINO=100&";
-    public static final String DATA_CONNECTION_EXC_URL = "http://211.105.106.70:8080/GM/excuteData.jsp?APINO=100&";
-    public static final String BACKUP_CONNECTION_URL = "http://211.105.106.70:8080/GM/getData.jsp?APINO=100&";
+    public static final String DATA_CONNECTION_URL = "http://211.105.106.**:8080/GM/getData.jsp?APINO=100&";
+    public static final String DATA_CONNECTION_EXC_URL = "http://211.105.106.**:8080/GM/excuteData.jsp?APINO=100&";
+    public static final String BACKUP_CONNECTION_URL = "http://211.105.106.**:8080/GM/getData.jsp?APINO=100&";
     public static String userID;
     public static String userPass;
     public static String userName;
